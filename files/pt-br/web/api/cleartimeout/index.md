@@ -21,7 +21,7 @@ escopo.clearTimeout(timeoutID)
 - `timeoutID`
   - : O ID do _timeout_ que você deseja cancelar. Esse ID é o retorno da função `setTimeout()`.
 
-É interessante ressaltar que os conjuntso de _IDs_ usados pelos métodos {{domxref("WindowOrWorkerGlobalScope.setTimeout", "setTimeout()")}} e {{domxref("WindowOrWorkerGlobalScope.setInterval", "setInterval()")}} são compartilhados, o que significa que `clearTimeout()` e {{domxref("WindowOrWorkerGlobalScope.clearInterval", "clearInterval()")}} podem ser tecnicamente utilizados de forma intercambiável. No entanto, para obter-se maior clareza, isso deve ser evitado.
+É interessante ressaltar que os conjuntos de _IDs_ usados pelos métodos {{domxref("WindowOrWorkerGlobalScope.setTimeout", "setTimeout()")}} e {{domxref("WindowOrWorkerGlobalScope.setInterval", "setInterval()")}} são compartilhados, o que significa que `clearTimeout()` e {{domxref("WindowOrWorkerGlobalScope.clearInterval", "clearInterval()")}} podem ser tecnicamente utilizados de forma intercambiável. No entanto, para obter-se maior clareza, isso deve ser evitado.
 
 ## Exemplo
 
