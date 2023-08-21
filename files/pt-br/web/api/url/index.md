@@ -7,7 +7,7 @@ slug: Web/API/URL
 
 A interface **`URL`** é usada para analisar, construir, normalizar e codificar {{glossary("URL", "URLs")}}. Ela trabalha com a disponibilização de propriedades para facilitar a leitura e modificar componentes da URL.
 
-Normalmente você cria um novo objeto `URL` especificando a URL como string quando seu construtor é chamado, ou provendo uma URL relativa e URL base. Você pode facilmente ler e analisar os compoentes de uma URL ou fazer alterações na URL.
+Normalmente você cria um novo objeto `URL` especificando a URL como string quando seu construtor é chamado, ou provendo uma URL relativa e URL base. Você pode facilmente ler e analisar os componentes de uma URL ou fazer alterações na URL.
 
 Se o seu navegador não tem suporte ao construtor {{domxref("URL.URL", "URL()")}}, você pode acessar o objeto URL utilizando a interface {{domxref("Window")}} propriedade {{domxref("URL")}}. Certifique-se de verificar se algum de seus navegadores precisa deste prefixo.
 
@@ -98,7 +98,7 @@ O método {{domxref("URL.toString", "toString()")}} de `URL` apenas retorna o va
 
 ```js
 const response = await fetch(
-  new URL("http://www.example.com/démonstration.html")
+  new URL("http://www.example.com/démonstration.html"),
 );
 ```
 
